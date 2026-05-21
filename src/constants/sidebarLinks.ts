@@ -1,5 +1,5 @@
 // constants/sidebarLinks.ts
-import { BarChart3, FileText, Users } from "lucide-react";
+import { BarChart3, FileText, Users, List, ShoppingCart } from "lucide-react";
 
 export const sidebarLinks = [
   {
@@ -16,5 +16,10 @@ export const sidebarLinks = [
     title: "Customer Report",
     href: "/customer-report",
     icon: Users, // customers & their purchases
+  },
+  {
+    title: "All Products",
+    href: "/all-products",
+    icon: ShoppingCart, // customers & their purchases
   },
 ];
